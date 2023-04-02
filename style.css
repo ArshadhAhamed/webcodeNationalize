@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Smokum&family=Tilt+Prism&display=swap');
+.container-fluid{
+    text-align: center;
+    height: 50%;
+    padding-left: 5px;
+    color: #D7C49EFF;
+    font-family: 'Bebas Neue', cursive;
+    background-color:#616247FF ;
+    border-bottom:5px solid black ;
+   }
+
+nav{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   justify-content: center;
+   gap:1rem;
+   height: 50px;
+   background-color:  #D7C49EFF ;
+   border-radius: 10px;
+}
+.result{
+    display: none;
+    background-color: #2D2926FF;
+}
+
+#btn{
+    height: 30px;
+    margin: 2px;
+    text-align: center;
+    border-radius: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    }
+
+#resetbtn{
+    height: 30px;
+    margin: 2px;
+    border-radius: 5px;
+    }
+
+#searchtext{
+    display: inline-block;
+    border-radius: 20px;
+    background-color: rgb(241, 251, 252);
+     }
+
+ 
+.container{
+    color:black;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    
+}  
+.card-body{
+    background-color:#616247FF;
+    height: 100%;
+}
+body{
+    background-color: #F4DF4EFF;
+}
+
